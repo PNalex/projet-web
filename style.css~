@@ -1,13 +1,8 @@
 h1
 {
-    color: blue;
+    color: red;
     text-align: center;
     
 }
 
-p.classementete{
-	position: absolute;
-	right: 100px;
-	top: 0px; 
-}
 
