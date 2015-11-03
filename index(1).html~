@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />
+		<title>Ludothèque - Accueil</title>
+	</head>
+	<body>
+		<h1>Ludothèque</h1>
+		<form method="post" action="traitement.php">
+		   <fieldset>
+       			<legend>Se connecter</legend>
+					<label for="nom">Adresse mail:</label>
+       				<input type="text" name="mail" id="mail" required />
+
+       				<label for="prenom">Mot de passe:</label>
+      				<input type="password" name="Mot de passe" id="mdp" required />
+      				<input type="submit" value="Se connecter" />
+		   </fieldset>
+		</form>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="info.html">Jeux</a></li>
+			<li><a href="stock.html">Stocks disponible</a></li>
+		</ul>
+		
+
+		<h2>Accueil</h2>
+		<p>blabla</p>
+	</body>
+</html>
